@@ -28,10 +28,6 @@ Example questions you might ask:
 !!! note "Location privacy"
     RELAY uses your device's current position to answer location-aware questions. Your location is shared with RELAY to generate a response, but not with other users in the channel.
 
-## SENTINEL — the NZDF equivalent
-
-TAK.NZ also runs **SENTINEL**, a sibling bot focused on NZDF defence doctrine, joint operations, and CoT type guidance rather than civilian emergency management. SENTINEL is available in the **`Bots - New Zealand Defence Force`** channel and is only accessible to NZDF users. If you're not NZDF, you won't see this channel — that's expected, and RELAY is the right bot for civilian public safety questions.
-
 ## What's behind RELAY
 
 RELAY is powered by a retrieval-augmented generation (RAG) knowledge base built from New Zealand emergency management reference material, including:
