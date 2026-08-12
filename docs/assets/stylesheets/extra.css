@@ -11,6 +11,10 @@
   --tak-primary-dark: #002244;
   --tak-secondary: #0066cc;
   --tak-secondary-dark: #004499;
+  /* Lighter blues for text/links on dark backgrounds, chosen to meet
+     WCAG AA contrast (4.5:1+) against the dark navy sidebar/body background. */
+  --tak-secondary-light: #4da8ff;
+  --tak-secondary-lighter: #7cc0ff;
 }
 
 /* Light mode custom palette */
@@ -30,10 +34,16 @@
   --md-primary-fg-color--light: var(--tak-secondary);
   --md-primary-fg-color--dark:  #001122;
   --md-primary-bg-color:        #ffffff;
-  --md-accent-fg-color:         var(--tak-secondary);
+  --md-accent-fg-color:         var(--tak-secondary-lighter);
   --md-accent-fg-color--transparent: rgba(0, 102, 204, 0.15);
   --md-accent-bg-color:         #ffffff;
   --md-default-bg-color:        #101828;
+
+  /* --md-typeset-a-color normally inherits --md-primary-fg-color, but that
+     variable is dark navy here (used for header/nav backgrounds), which is
+     nearly invisible as text on the dark sidebar. Use a lighter blue instead
+     so links and the active nav item stay readable (WCAG AA, ~7:1 contrast). */
+  --md-typeset-a-color:         var(--tak-secondary-light);
 }
 
 /* Typography to match TAK.NZ site (Archivo) */
@@ -48,6 +58,12 @@ body,
 .md-typeset h4 {
   font-family: "Archivo", -apple-system, sans-serif;
   font-weight: 700;
+}
+
+/* Highlight span used in the "When Where Matters." homepage headline,
+   matching the accent color used for "Where" on the tak.nz marketing site. */
+.tak-highlight {
+  color: var(--tak-secondary-dark);
 }
 
 /* Header border accent to echo the marketing site's 3px bottom border */
@@ -66,4 +82,38 @@ body,
 
 .md-typeset a:hover {
   color: var(--tak-secondary-dark);
+}
+
+/* In dark mode, the light-mode link colors above are too dark to read
+   against the dark navy background (fails WCAG AA contrast). Swap to
+   the lighter blues used elsewhere in slate mode. */
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: var(--tak-secondary-light);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: var(--tak-secondary-lighter);
+}
+
+/* Borderless table style (e.g. the Maps overview table): keeps the full
+   table visible, just without the default outer border/cell rules so it
+   reads more like an image gallery than a bordered data grid. */
+.md-typeset table.tak-maps-table,
+.md-typeset table.tak-maps-table th,
+.md-typeset table.tak-maps-table td {
+  border: none;
+}
+
+.md-typeset table.tak-maps-table {
+  background-color: transparent;
+}
+
+.md-typeset table.tak-maps-table tbody tr:hover {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.md-typeset table.tak-maps-table img {
+  display: block;
+  border-radius: .2rem;
 }

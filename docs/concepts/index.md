@@ -18,23 +18,23 @@ TAK addresses this by giving every responder — regardless of agency — a live
 
 ## Core concepts
 
-### Common Operating Picture (COP)
+### :material-map-outline: Common Operating Picture (COP)
 
 The Common Operating Picture is the shared map itself: everyone's position, plus any markers, shapes, hazard overlays, or data feeds that have been added to the channels you're subscribed to. Everyone looking at the same channel sees the same COP, updated in real time.
 
-### Cursor on Target (CoT)
+### :material-crosshairs-gps: Cursor on Target (CoT)
 
 Every dot on the map — a person, a vehicle, an aircraft, a marker — is represented internally as a small piece of data called **Cursor on Target (CoT)**. CoT is the common "language" that lets ATAK, TAK Aware, WinTAK, CloudTAK, external sensors (like ADS-B aircraft feeds), and the TAK Server all talk to each other, regardless of which client or device produced the data. You don't need to understand CoT to use TAK.NZ, but it's why data flows so easily between very different types of devices and feeds.
 
-### TAK Server
+### :material-server-network-outline: TAK Server
 
 The TAK Server is the central hub that all clients connect to. It's what makes the "shared" part of the Common Operating Picture possible — it receives position updates, chat messages, and data from every connected client, and distributes them to everyone else who should see them, based on channel membership. TAK.NZ operates and manages this infrastructure so agencies don't have to run their own.
 
-### Channels
+### :material-radio-tower: Channels
 
-Channels work like radio channels: to see other users, you both need to be on the same channel. TAK.NZ uses a three-layer channel structure — national, regional, and organisation — designed specifically around how NZ agencies coordinate. See [Channel Structure](../reference/channels.md) for the full breakdown.
+Channels work like radio channels: to see other users, you both need to be on the same channel. TAK.NZ uses a three-layer channel structure — national, regional, and organisation — designed specifically around how NZ agencies coordinate. See [Channel Structure](channels.md) for the full breakdown.
 
-### Clients
+### :material-devices: Clients
 
 A client is the app you actually use to view and interact with the Common Operating Picture:
 
@@ -47,10 +47,10 @@ A client is the app you actually use to view and interact with the Common Operat
 
 All four clients connect to the same TAK Server and show the same underlying data — they just present it differently depending on the device. See [Choosing a Client](../clients/index.md) for a full comparison.
 
-### Callsigns and colour coding
+### :material-palette-outline: Callsigns and colour coding
 
-Every user on the map has a standardised callsign (e.g. `FENZ-AUK-JSmith`) and appears as a colour-coded dot based on their organisation (Red for FENZ, Blue for Police, Green for ambulance, and so on). This lets you identify who you're looking at on the map at a glance, even during a large multi-agency response. See [Callsigns](../reference/callsigns.md) and [Colour Coding](../reference/colour-coding.md) for the full schema.
+Every user on the map has a standardised callsign (e.g. `FENZ-AUK-JSmith`) and appears as a colour-coded dot based on their organisation (Red for FENZ, Blue for Police, Green for ambulance, and so on). This lets you identify who you're looking at on the map at a glance, even during a large multi-agency response. See [Callsigns](callsigns.md) and [Colour Coding](colour-coding.md) for the full schema.
 
 ## Next steps
 
-Ready to get hands-on? Head to [Getting Started](../getting-started/index.md) to create your account, or read on to [The TAK.NZ Network](tak-nz-network.md) to understand how New Zealand's specific deployment is put together.
+Ready to get hands-on? Head to [Getting Started](../getting-started/index.md) to create your account, or read on to [Connecting Agencies](tak-nz-network.md) to understand how New Zealand's specific deployment is put together.

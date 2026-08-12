@@ -23,11 +23,14 @@ The fastest way to connect ATAK to the TAK.NZ server is by scanning a QR code, r
 
 Once enrolled, your position will start reporting to the TAK Server (subject to your active channels) and you'll be able to see other users, markers, and overlays on the map.
 
+!!! tip "Enrolling directly from your Android device"
+    The account portal and TAK Device Enrollment app work fine in a mobile browser too. If you open them directly on the Android phone or tablet you're enrolling, you can enrol that device without scanning a QR code at all — the QR code is only needed when enrolling from a separate device.
+
 ## The basics
 
 ### Your Self-Marker
 
-By default, your position is shown as a blue arrowhead with a white outline. Other users appear as colour-coded circles based on their organisation (see [Colour Coding](../reference/colour-coding.md)), with a letter inside indicating their role — for example, **TL** for Team Lead, **HQ** for Headquarters, **+** for Medic.
+By default, your position is shown as a blue arrowhead with a white outline. Other users appear as colour-coded circles based on their organisation (see [Colour Coding](../concepts/colour-coding.md)), with a letter inside indicating their role — for example, **TL** for Team Lead, **HQ** for Headquarters, **+** for Medic.
 
 - A **solid** marker means the user has GPS reception.
 - A marker with a **diagonal line** means GPS location isn't currently available for that user.
@@ -50,7 +53,7 @@ Tapping any marker or your own Self-Marker brings up a **radial menu** with quic
 
 ### Channels
 
-Manage which channels you're subscribed to under **Settings** or via the channel/groups selector, depending on your ATAK version. See [Channel Structure](../reference/channels.md) for how TAK.NZ's national, regional, and organisation channels work.
+Manage which channels you're subscribed to under **Settings** or via the channel/groups selector, depending on your ATAK version. See [Channel Structure](../concepts/channels.md) for how TAK.NZ's national, regional, and organisation channels work.
 
 ### GeoChat
 
@@ -74,4 +77,4 @@ ATAK has a large feature set beyond the basics above — including routes and na
 ## Next steps
 
 - [Data Sync & Missions](../data-sync/index.md) — sharing map items with your team
-- [Callsigns](../reference/callsigns.md) and [Colour Coding](../reference/colour-coding.md) — understanding what you see on the map
+- [Callsigns](../concepts/callsigns.md) and [Colour Coding](../concepts/colour-coding.md) — understanding what you see on the map

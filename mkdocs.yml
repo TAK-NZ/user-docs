@@ -4,9 +4,6 @@ site_description: Official documentation for TAK.NZ - Team Awareness Kit New Zea
 site_author: TAK.NZ
 copyright: Copyright &copy; 2025 TAK.NZ
 
-repo_name: TAK-NZ
-repo_url: https://github.com/TAK-NZ
-
 theme:
   name: material
   logo: assets/images/logo-icon.svg
@@ -30,10 +27,10 @@ theme:
     text: Archivo
     code: Roboto Mono
   features:
-    - toc.integrate
     - header.autohide
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - navigation.tracking
     - navigation.instant
     - navigation.instant.prefetch
@@ -49,7 +46,6 @@ extra_css:
   - assets/stylesheets/extra.css
 
 extra:
-  homepage: https://tak.nz
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/TAK-NZ
@@ -70,7 +66,10 @@ nav:
   - Home: index.md
   - Concepts:
       - What is TAK?: concepts/index.md
-      - The TAK.NZ Network: concepts/tak-nz-network.md
+      - Connecting Agencies: concepts/tak-nz-network.md
+      - Callsigns: concepts/callsigns.md
+      - Channel Structure: concepts/channels.md
+      - Colour Coding: concepts/colour-coding.md
   - Getting Started:
       - Create Your Account: getting-started/index.md
       - Account Management: getting-started/account-management.md
@@ -81,25 +80,29 @@ nav:
       - ATAK (Android): clients/atak.md
       - TAK Aware (iPhone/iPad): clients/takaware.md
       - WinTAK (Windows): clients/wintak.md
+  - Maps:
+      - Overview: maps/index.md
   - Data Sync & Missions:
       - Overview: data-sync/index.md
       - Using Missions: data-sync/using-missions.md
+  - Data Packages:
+      - Overview: data-packages/index.md
   - External Feeds:
       - Overview: feeds/index.md
       - ADS-B (Aircraft): feeds/adsb.md
       - AIS (Vessels): feeds/ais.md
-  - Reference:
-      - Callsigns: reference/callsigns.md
-      - Channel Structure: reference/channels.md
-      - Colour Coding: reference/colour-coding.md
-      - RELAY Assistant: reference/relay.md
+  - RELAY Assistant: reference/relay.md
 
 markdown_extensions:
   - toc:
       permalink: "🔗"
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.tabbed:

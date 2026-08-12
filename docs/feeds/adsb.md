@@ -28,4 +28,4 @@ The ADS-B feed is enabled per-deployment by your TAK.NZ administrator, typically
 ## Related
 
 - [AIS (Vessels)](ais.md) — the equivalent feed for maritime traffic
-- [Colour Coding](../reference/colour-coding.md) — how other map items are colour-coded by organisation
+- [Colour Coding](../concepts/colour-coding.md) — how other map items are colour-coded by organisation

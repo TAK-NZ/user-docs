@@ -1,11 +1,11 @@
 # Account Management
 
-TAK.NZ's account management portal is built on **Authentik**, an open source identity provider. This is where you manage your TAK.NZ identity: your profile, your login methods, your device enrolments, and (depending on your role) your channel access.
+TAK.NZ's account management portal is built on **Authentik**, an open source identity provider. This is where you manage your TAK.NZ identity: your profile, your login methods, your device enrolments, and (depending on your role) your channel access. The portal works the same way in a mobile browser as on desktop, so you can manage your account from your phone or tablet without needing a computer.
 
 ## Logging in
 
 1. Go to your organisation's account portal (e.g. [https://account.demo.tak.nz/](https://account.demo.tak.nz/)).
-2. Sign in with your password, or with a linked Google, Apple, or LinkedIn account.
+2. Sign in with your password, or with a linked Google or Apple account.
 3. You'll land on the **Application Dashboard** — the main Authentik landing page, showing the applications you have access to (such as CloudTAK and TAK device enrolment).
 
 ## Setting up a passkey (recommended)
@@ -32,7 +32,7 @@ Passkeys apply to the web-based account portal and CloudTAK. Mobile clients (ATA
 - **View and edit your profile** — under your user settings (gear icon), the **User details** tab covers your username, display name, email, and locale, plus changing your password
 - **Manage credentials** — the **Credentials** tab is where you add MFA devices (including passkeys), manage access tokens, and app passwords
 - **View active sessions** — the **Sessions** tab lists every device currently signed in, and lets you sign out a specific session remotely
-- **Manage connected accounts** — the **Connected services** tab lists linked social logins (Google, Apple, LinkedIn) and lets you connect or disconnect them
+- **Manage connected accounts** — the **Connected services** tab lists linked sign-in providers (Google, Apple) and lets you connect or disconnect them
 - **Enrol a device** — from the Application Dashboard, select TAK Device Enrollment to generate a QR code or credentials to connect ATAK or TAK Aware (see [Choosing a Client](choosing-a-client.md))
 - **See your active channels** — which national, regional, and organisation channels you have access to
 - **Request additional access** — if your role changes or you need a channel you don't currently have

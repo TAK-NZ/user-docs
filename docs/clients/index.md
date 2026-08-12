@@ -43,7 +43,7 @@ TAK.NZ can be used through four different clients. They all connect to the same 
 | Feature | CloudTAK | ATAK | TAK Aware | WinTAK |
 |---|---|---|---|---|
 | Install required | No | Yes (Android) | Yes (iOS) | Yes (Windows) |
-| QR code enrolment | N/A (browser login) | Yes | Yes | No (manual server entry) |
+| QR code enrolment | N/A (browser login) | Yes (or direct enrolment on-device) | Yes (or direct enrolment on-device) | No (manual server entry) |
 | Live position sharing | Yes | Yes | Yes | Yes |
 | GeoChat | Yes | Yes | Yes | Yes |
 | Drawing tools & markers | Yes | Yes (most complete) | Yes | Yes |
@@ -55,8 +55,8 @@ TAK.NZ can be used through four different clients. They all connect to the same 
 
 Regardless of which client you use, the following core concepts work the same way:
 
-- **Channels** control who and what you can see — see [Channel Structure](../reference/channels.md)
-- **Callsigns and colours** identify every user on the map — see [Callsigns](../reference/callsigns.md) and [Colour Coding](../reference/colour-coding.md)
+- **Channels** control who and what you can see — see [Channel Structure](../concepts/channels.md)
+- **Callsigns and colours** identify every user on the map — see [Callsigns](../concepts/callsigns.md) and [Colour Coding](../concepts/colour-coding.md)
 - **GeoChat** lets you message individuals or groups, tied to a location on the map
 - **Data Sync / Missions** let you share map items, files, and updates with your team in real time — see [Data Sync & Missions](../data-sync/index.md)
 - **RELAY**, the TAK.NZ AI assistant, is available in GeoChat on every client — see [RELAY Assistant](../reference/relay.md)

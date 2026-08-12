@@ -21,7 +21,7 @@ Unlike ATAK and TAK Aware, WinTAK doesn't currently support QR code enrolment �
 
 ### The map and your position
 
-WinTAK shows the same Common Operating Picture as ATAK, TAK Aware, and CloudTAK. Your position appears on the map, and other users appear as colour-coded markers by organisation — see [Colour Coding](../reference/colour-coding.md).
+WinTAK shows the same Common Operating Picture as ATAK, TAK Aware, and CloudTAK. Your position appears on the map, and other users appear as colour-coded markers by organisation — see [Colour Coding](../concepts/colour-coding.md).
 
 ### Placing markers
 
@@ -29,7 +29,7 @@ Use WinTAK's marker tools to drop standard map markers, similar to ATAK's Point 
 
 ### Channels
 
-Manage your active channels from WinTAK's settings. See [Channel Structure](../reference/channels.md) — the same national/regional/organisation hierarchy applies across every client.
+Manage your active channels from WinTAK's settings. See [Channel Structure](../concepts/channels.md) — the same national/regional/organisation hierarchy applies across every client.
 
 ### GeoChat
 

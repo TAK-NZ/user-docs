@@ -8,7 +8,7 @@ Vessels appear on the map as maritime icons, positioned and updated as their AIS
 
 ## How vessels are classified
 
-The AIS feed maps each vessel's reported AIS ship type to an appropriate icon and classification, and determines affiliation (domestic versus foreign) based on the vessel's flag. This means, for example, a New Zealand-flagged vessel and a foreign-flagged vessel of the same type will appear with the same base icon but different affiliation styling, consistent with how [Colour Coding](../reference/colour-coding.md) works elsewhere in TAK.NZ.
+The AIS feed maps each vessel's reported AIS ship type to an appropriate icon and classification, and determines affiliation (domestic versus foreign) based on the vessel's flag. This means, for example, a New Zealand-flagged vessel and a foreign-flagged vessel of the same type will appear with the same base icon but different affiliation styling, consistent with how [Colour Coding](../concepts/colour-coding.md) works elsewhere in TAK.NZ.
 
 Where a specific vessel needs a manual override — for example, a known vessel that should always appear with a particular icon regardless of its reported AIS type — this can be configured by MMSI (Maritime Mobile Service Identity) at the administrator level.
 
@@ -23,4 +23,4 @@ The AIS feed is enabled per-deployment by your TAK.NZ administrator, typically a
 ## Related
 
 - [ADS-B (Aircraft)](adsb.md) — the equivalent feed for air traffic
-- [Colour Coding](../reference/colour-coding.md) — how map items are colour-coded by organisation and affiliation
+- [Colour Coding](../concepts/colour-coding.md) — how map items are colour-coded by organisation and affiliation

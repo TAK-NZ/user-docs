@@ -6,11 +6,11 @@ hide:
   - toc
 ---
 
-# When *Where* Matters.
+# When *Where*{: .tak-highlight } Matters.
 
 **See your team, share information, save lives.**
 
-TAK.NZ is New Zealand's shared situational awareness platform for emergency responders. It gives Fire and Emergency NZ (FENZ), NZ Police, Hato Hone St John, LandSAR, NEMA, Health NZ, NZ Defence Force, and other agencies a single, live, shared map — so everyone responding to an incident can see who else is there, what's happening, and where the hazards are, in real time.
+TAK.NZ is New Zealand's shared situational awareness platform for emergency responders. It gives agencies across New Zealand's emergency response and public safety sector a single, live, shared map — so everyone responding to an incident can see who else is there, what's happening, and where the hazards are, in real time.
 
 Think of it as a shared live map where every responding unit, hazard zone, and data layer is visible to everyone who needs it — across agencies, without extra radio traffic or phone calls just to ask "where are you?"
 
@@ -42,6 +42,14 @@ TAK.NZ is built on TAK (Team Awareness Kit), the same technology used by public 
 
     [:octicons-arrow-right-24: Choose a client](clients/index.md)
 
+- :material-map-outline:{ .lg .middle } **Maps**
+
+    ---
+
+    Basemaps and imagery available on TAK.NZ, including NZ-specific LINZ topographic and aerial maps.
+
+    [:octicons-arrow-right-24: Explore maps](maps/index.md)
+
 - :material-map-marker-radius-outline:{ .lg .middle } **Data Sync & Missions**
 
     ---
@@ -49,6 +57,14 @@ TAK.NZ is built on TAK (Team Awareness Kit), the same technology used by public 
     Share map items, files, and updates with your team in real time using Missions.
 
     [:octicons-arrow-right-24: Using Missions](data-sync/index.md)
+
+- :material-folder-zip-outline:{ .lg .middle } **Data Packages**
+
+    ---
+
+    Portable bundles of map content you can share and import into any TAK client, including offline.
+
+    [:octicons-arrow-right-24: About Data Packages](data-packages/index.md)
 
 - :material-radar:{ .lg .middle } **External Feeds**
 
@@ -58,23 +74,19 @@ TAK.NZ is built on TAK (Team Awareness Kit), the same technology used by public 
 
     [:octicons-arrow-right-24: Explore feeds](feeds/index.md)
 
-- :material-book-open-variant-outline:{ .lg .middle } **Reference**
+- :material-robot-outline:{ .lg .middle } **RELAY Assistant**
 
     ---
 
-    Callsigns, channel structure, colour coding, and the RELAY AI assistant.
+    TAK.NZ's built-in AI assistant for NZ emergency doctrine, road closures, and hazard data.
 
-    [:octicons-arrow-right-24: Browse reference](reference/callsigns.md)
+    [:octicons-arrow-right-24: Meet RELAY](reference/relay.md)
 
 </div>
 
 ## Why TAK.NZ
 
-- **One shared picture, every agency.** Regional channels bring FENZ, Police, ambulance, LandSAR, and other responders onto the same map automatically during an emergency.
+- **One shared picture, every agency.** Regional channels bring responding agencies onto the same map automatically during an emergency.
 - **Works on what you already have.** ATAK on Android, TAK Aware on iPhone, WinTAK on a laptop, or CloudTAK in any browser — no proprietary hardware.
-- **Built for New Zealand.** Callsigns, channels, and colour coding are designed around NZ agencies, regions, and how our emergency response actually works.
+- **Built for New Zealand.** Callsigns, channels, and colour coding are designed around NZ agencies, regions, and how our emergency response actually works, with LINZ basemaps giving you accurate NZ-specific mapping.
 - **Free and open source.** TAK.NZ is built on free and open source software, with no per-seat licensing costs standing in the way of adoption.
-
-## Get help
-
-If you get stuck, message **RELAY** (Rapid Emergency Liaison and Advisory for You) directly in GeoChat — TAK.NZ's built-in AI assistant can answer questions about NZ emergency doctrine, road closures, and platform use. See [RELAY Assistant](reference/relay.md) for details, or reach out to your TAK.NZ administrator.

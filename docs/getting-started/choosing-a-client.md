@@ -24,7 +24,9 @@ Once you're comfortable with the basics, move to a mobile client (ATAK or TAK Aw
 
 ## Enrolling a mobile device (ATAK/TAK Aware)
 
-ATAK and TAK Aware both support **QR code enrolment**, which is the fastest way to connect a device to the TAK.NZ server without manually typing in server addresses or credentials. You'll generate a QR code from the account portal (or have one provided by your administrator), then scan it from within the app during setup. Full steps are covered on each client's page:
+ATAK and TAK Aware both support **QR code enrolment**, which connects a device to the TAK.NZ server without manually typing in server addresses or credentials. You'll generate a QR code from the account portal (or have one provided by your administrator), then scan it from within the app during setup.
+
+If you open the account portal directly on the phone or tablet you're enrolling, you can skip the QR code entirely and enrol the device on the spot. The QR code is only needed when generating the enrolment from a different device — for example, an administrator setting up a device on someone else's behalf. Full steps are covered on each client's page:
 
 - [ATAK enrolment](../clients/atak.md#enrolling-your-device)
 - [TAK Aware enrolment](../clients/takaware.md#enrolling-your-device)

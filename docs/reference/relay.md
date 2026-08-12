@@ -36,7 +36,7 @@ TAK.NZ also runs **SENTINEL**, a sibling bot focused on NZDF defence doctrine, j
 
 RELAY is powered by a retrieval-augmented generation (RAG) knowledge base built from New Zealand emergency management reference material, including:
 
-- Standardised callsign, channel, and colour-coding schemas used on TAK.NZ (see [Callsigns](callsigns.md), [Channel Structure](channels.md), and [Colour Coding](colour-coding.md))
+- Standardised callsign, channel, and colour-coding schemas used on TAK.NZ (see [Callsigns](../concepts/callsigns.md), [Channel Structure](../concepts/channels.md), and [Colour Coding](../concepts/colour-coding.md))
 - Maritime radio and distress procedures, and Maritime Operator Safety System (MOSS) requirements
 - Fire service radio codes and NZ Police operational codes
 - Coordinated Incident Management System (CIMS) doctrine and the National CDEM Plan

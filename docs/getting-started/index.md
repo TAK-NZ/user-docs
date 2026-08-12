@@ -4,7 +4,7 @@ Before you can use any TAK.NZ client, you need an account in the TAK.NZ account 
 
 ## Step 1 — Go to the account portal
 
-Open [https://account.demo.tak.nz/](https://account.demo.tak.nz/) in your browser.
+Open [https://account.demo.tak.nz/](https://account.demo.tak.nz/) in your browser. The account portal, the TAK Device Enrollment app, and CloudTAK all work fine in a mobile browser — you don't need a desktop or laptop for any of these steps.
 
 !!! note "Demo environment"
     `account.demo.tak.nz` is the current TAK.NZ demonstration environment. Your agency administrator will let you know if you should use a different URL for a production deployment.
@@ -14,10 +14,10 @@ Open [https://account.demo.tak.nz/](https://account.demo.tak.nz/) in your browse
 You have two ways to sign in:
 
 - **Create a password** — click **Forgot username or password?** to set a password for your account.
-- **Use a social login** — sign in with Google, Apple, or LinkedIn if your work email is linked to one of those providers. This is often the faster option and means one less password to manage.
+- **Sign in with an existing account** — use Google or Apple if your work email is linked to one of those providers. This is often the faster option and means one less password to manage.
 
 !!! tip
-    TAK.NZ's account system is designed so you don't need to create yet another password to remember. Where possible, use an existing account (Google, Apple, LinkedIn, or RealMe in future) instead of a new TAK.NZ-specific password.
+    TAK.NZ's account system is designed so you don't need to create yet another password to remember. Where possible, sign in with an existing account (Google, Apple, or RealMe in future) instead of a new TAK.NZ-specific password.
 
 If you don't yet have an account, contact your agency's TAK.NZ administrator to be added — access is granted per-organisation, not by open sign-up.
 

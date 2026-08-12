@@ -18,8 +18,8 @@ CloudTAK works in any modern browser on desktop, tablet, or mobile, though a lar
 
 The first time you log in, you'll be asked to set your **callsign** and device preferences:
 
-1. **Callsign** — follow the TAK.NZ [Callsigns](../reference/callsigns.md) schema (`[ORG]-[REGION]-[SUFFIX]`), for example `FENZ-AUK-JSmith`.
-2. **Marker colour** — this is set automatically based on your organisation. See [Colour Coding](../reference/colour-coding.md) if you want to understand why your dot is the colour it is.
+1. **Callsign** — follow the TAK.NZ [Callsigns](../concepts/callsigns.md) schema (`[ORG]-[REGION]-[SUFFIX]`), for example `FENZ-AUK-JSmith`.
+2. **Marker colour** — this is set automatically based on your organisation. See [Colour Coding](../concepts/colour-coding.md) if you want to understand why your dot is the colour it is.
 3. **Role** — choose your role on the team (Team Member, Team Lead, Medic, etc.). If you're not sure, **Team Member** is the safe default.
 4. When prompted, select **Allow** so CloudTAK can access your location. If your device doesn't have GPS (e.g. a desktop browser), you'll need to set your location manually — click the location button in the bottom-left corner and select your position on the map.
 
@@ -48,7 +48,7 @@ Each channel shows two icons:
 - An **eye** icon — open means the channel is on and sharing your location with everyone else on it; a slash through it means your presence is hidden from that channel.
 - An **arrow** icon — a plain arrow means users on that channel can see each other; an arrow with a slash means the channel only supplies data (e.g. aircraft or hazard feeds) without mutual user visibility.
 
-Your list of channels is unique to your account — some are created by your agency administrator and limited to your organisation, while others are shared across agencies for mutual aid. Only turn on mutual aid channels when you actually need them, and follow your agency's own policy on this. See [Channel Structure](../reference/channels.md) for the full national/regional/organisation breakdown.
+Your list of channels is unique to your account — some are created by your agency administrator and limited to your organisation, while others are shared across agencies for mutual aid. Only turn on mutual aid channels when you actually need them, and follow your agency's own policy on this. See [Channel Structure](../concepts/channels.md) for the full national/regional/organisation breakdown.
 
 !!! tip
     When you enable a new channel, wait 20–30 seconds for the map to populate with its icons and shapes.
@@ -146,4 +146,4 @@ This page covers CloudTAK as configured for TAK.NZ. For the complete upstream Cl
 
 ## Next steps
 
-Once you're comfortable with the basics, explore [Data Sync & Missions](../data-sync/index.md) or check the [Reference](../reference/callsigns.md) section for callsigns, channels, and colour coding.
+Once you're comfortable with the basics, explore [Data Sync & Missions](../data-sync/index.md) or check the [Concepts](../concepts/callsigns.md) section for callsigns, channels, and colour coding.

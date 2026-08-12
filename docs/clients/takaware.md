@@ -19,11 +19,14 @@ Like ATAK, TAK Aware supports QR code enrolment, which is the fastest way to con
 
 Once enrolled, your position reports to the TAK Server (subject to your active channels), and you'll see other users, markers, and overlays on the map.
 
+!!! tip "Enrolling directly from your iPhone or iPad"
+    The account portal and TAK Device Enrollment app also work in Safari on iOS. If you open them directly on the device you're enrolling, you can enrol without scanning a QR code at all — the QR code is only needed when enrolling from a separate device.
+
 ## The basics
 
 ### Your position and other users
 
-Your position appears on the map, and other users appear as colour-coded markers based on their organisation — see [Colour Coding](../reference/colour-coding.md). Tap any marker to see its details.
+Your position appears on the map, and other users appear as colour-coded markers based on their organisation — see [Colour Coding](../concepts/colour-coding.md). Tap any marker to see its details.
 
 ### Placing markers
 
@@ -31,7 +34,7 @@ Use TAK Aware's marker/point-dropping tool to place standard map markers — tap
 
 ### Channels
 
-Manage which channels you're subscribed to from the app's settings or channel selector. See [Channel Structure](../reference/channels.md) for how TAK.NZ's channel hierarchy works, and disable channels you don't need to keep your map focused.
+Manage which channels you're subscribed to from the app's settings or channel selector. See [Channel Structure](../concepts/channels.md) for how TAK.NZ's channel hierarchy works, and disable channels you don't need to keep your map focused.
 
 ### GeoChat
 
