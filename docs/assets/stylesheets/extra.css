@@ -1,0 +1,69 @@
+/* TAK.NZ branding for Material for MkDocs
+   Colors match https://github.com/TAK-NZ/TAK-NZ.github.io
+   Primary:   #003366 (deep government blue)
+   Secondary: #0066cc (lighter blue, used as accent)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap');
+
+:root {
+  --tak-primary: #003366;
+  --tak-primary-dark: #002244;
+  --tak-secondary: #0066cc;
+  --tak-secondary-dark: #004499;
+}
+
+/* Light mode custom palette */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        var(--tak-primary);
+  --md-primary-fg-color--light: var(--tak-secondary);
+  --md-primary-fg-color--dark:  var(--tak-primary-dark);
+  --md-primary-bg-color:        #ffffff;
+  --md-accent-fg-color:         var(--tak-secondary);
+  --md-accent-fg-color--transparent: rgba(0, 102, 204, 0.1);
+  --md-accent-bg-color:         #ffffff;
+}
+
+/* Dark mode custom palette */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        var(--tak-primary-dark);
+  --md-primary-fg-color--light: var(--tak-secondary);
+  --md-primary-fg-color--dark:  #001122;
+  --md-primary-bg-color:        #ffffff;
+  --md-accent-fg-color:         var(--tak-secondary);
+  --md-accent-fg-color--transparent: rgba(0, 102, 204, 0.15);
+  --md-accent-bg-color:         #ffffff;
+  --md-default-bg-color:        #101828;
+}
+
+/* Typography to match TAK.NZ site (Archivo) */
+body,
+.md-typeset {
+  font-family: "Archivo", -apple-system, sans-serif;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: "Archivo", -apple-system, sans-serif;
+  font-weight: 700;
+}
+
+/* Header border accent to echo the marketing site's 3px bottom border */
+.md-header {
+  border-bottom: 3px solid var(--tak-primary-dark);
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  border-bottom: 3px solid var(--tak-secondary);
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--tak-secondary);
+}
+
+.md-typeset a:hover {
+  color: var(--tak-secondary-dark);
+}

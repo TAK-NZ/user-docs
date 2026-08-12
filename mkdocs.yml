@@ -1,0 +1,112 @@
+site_name: TAK.NZ Documentation
+site_url: https://docs.tak.nz/
+site_description: Official documentation for TAK.NZ - Team Awareness Kit New Zealand
+site_author: TAK.NZ
+copyright: Copyright &copy; 2025 TAK.NZ
+
+repo_name: TAK-NZ
+repo_url: https://github.com/TAK-NZ
+
+theme:
+  name: material
+  logo: assets/images/logo-icon.svg
+  favicon: assets/images/favicon-96x96.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Archivo
+    code: Roboto Mono
+  features:
+    - toc.integrate
+    - header.autohide
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  homepage: https://tak.nz
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TAK-NZ
+      name: TAK.NZ on GitHub
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - minify:
+      minify_html: true
+  - glightbox
+  - open-in-new-tab
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Concepts:
+      - What is TAK?: concepts/index.md
+      - The TAK.NZ Network: concepts/tak-nz-network.md
+  - Getting Started:
+      - Create Your Account: getting-started/index.md
+      - Account Management: getting-started/account-management.md
+      - Choosing a Client: getting-started/choosing-a-client.md
+  - Clients:
+      - Overview: clients/index.md
+      - CloudTAK: clients/cloudtak.md
+      - ATAK (Android): clients/atak.md
+      - TAK Aware (iPhone/iPad): clients/takaware.md
+      - WinTAK (Windows): clients/wintak.md
+  - Data Sync & Missions:
+      - Overview: data-sync/index.md
+      - Using Missions: data-sync/using-missions.md
+  - External Feeds:
+      - Overview: feeds/index.md
+      - ADS-B (Aircraft): feeds/adsb.md
+      - AIS (Vessels): feeds/ais.md
+  - Reference:
+      - Callsigns: reference/callsigns.md
+      - Channel Structure: reference/channels.md
+      - Colour Coding: reference/colour-coding.md
+      - RELAY Assistant: reference/relay.md
+
+markdown_extensions:
+  - toc:
+      permalink: "🔗"
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
