@@ -49,7 +49,7 @@ All four clients connect to the same TAK Server and show the same underlying dat
 
 ### :material-palette-outline: Callsigns and colour coding
 
-Every user on the map has a standardised callsign (e.g. `FENZ-AUK-JSmith`) and appears as a colour-coded dot based on their organisation (Red for FENZ, Blue for Police, Green for ambulance, and so on). This lets you identify who you're looking at on the map at a glance, even during a large multi-agency response. See [Callsigns](callsigns.md) and [Colour Coding](colour-coding.md) for the full schema.
+Every user on the map has a standardised callsign (e.g. `FENZ-AUK-JSmith`) and appears as a colour-coded dot showing their operational function (Red for fire and rescue, Blue for police, Green for health and ambulance, and so on). The callsign tells you who someone is; the colour tells you what they do. This lets you identify who you're looking at on the map at a glance, even during a large multi-agency response. See [Callsigns](callsigns.md) and [Colour Coding](colour-coding.md) for the full schema.
 
 ## Next steps
 
