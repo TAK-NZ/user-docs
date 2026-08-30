@@ -2,7 +2,7 @@ site_name: TAK.NZ Documentation
 site_url: https://docs.tak.nz/
 site_description: Official documentation for TAK.NZ - Team Awareness Kit New Zealand
 site_author: TAK.NZ
-copyright: Copyright &copy; 2025 TAK.NZ
+copyright: Copyright &copy; {year} TAK.NZ
 
 theme:
   name: material
@@ -41,6 +41,9 @@ theme:
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
+
+hooks:
+  - hooks/copyright_year.py
 
 extra_css:
   - assets/stylesheets/extra.css
