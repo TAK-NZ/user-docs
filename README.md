@@ -56,7 +56,15 @@ The output is generated in the `site/` directory.
 
 Pushes to `main` automatically build and deploy the site to GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), publishing to the custom domain configured in [`CNAME`](CNAME) (`docs.tak.nz`).
 
-Pull requests are validated with a strict build check via [`.github/workflows/pr-preview.yml`](.github/workflows/pr-preview.yml).
+## Contributing
+
+`main` is protected — changes are made through pull requests, which require at least one approval and passing status checks before they can be merged. [`.github/workflows/pr-preview.yml`](.github/workflows/pr-preview.yml) runs on every PR and checks:
+
+- **Workflow lint** — validates the GitHub Actions workflow files with [`actionlint`](https://github.com/rhysd/actionlint).
+- **Strict MkDocs build** — `mkdocs build --strict` fails on broken nav references, and (via the [`htmlproofer`](https://github.com/manuzhang/mkdocs-htmlproofer-plugin) plugin) on broken internal links, anchors, or missing images in the rendered site.
+- **External link check** — [`lychee`](https://github.com/lycheeverse/lychee-action) checks external links in the built site and reports broken ones in the job summary. This check is informational and does not block merging, since external sites can be flaky.
+
+Use the PR template checklist as a guide, and update the `nav` section in `mkdocs.yml` whenever you add a new page.
 
 ## License
 

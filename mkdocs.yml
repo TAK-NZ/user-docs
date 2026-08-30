@@ -60,6 +60,23 @@ plugins:
       minify_html: true
   - glightbox
   - open-in-new-tab
+  - htmlproofer:
+      enabled: !ENV [ENABLED_HTMLPROOFER, false]
+      raise_error: true
+      validate_external_urls: false
+
+# Fail the build on broken internal links/anchors and nav references.
+# External links are checked separately in CI via lychee.
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    anchors: warn
+    absolute_links: warn
+    unrecognized_links: warn
 
 # Navigation structure
 nav:

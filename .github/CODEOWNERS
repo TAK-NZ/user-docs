@@ -1,0 +1,6 @@
+# Default owners for everything in the repo, unless a later match takes precedence.
+# These owners will be requested for review when someone opens a pull request.
+#
+# NOTE: Replace with a team (e.g. @TAK-NZ/user-docs-maintainers) once one exists
+# in the TAK-NZ org. Team-based CODEOWNERS is preferred once there are 2+ maintainers.
+*       @chriselsen
