@@ -117,3 +117,21 @@ body,
   display: block;
   border-radius: .2rem;
 }
+
+/* App icon badge: shows the actual ATAK/CloudTAK nav icon for a feature,
+   so the page visually matches what the user will click on in their app.
+   Floated top-right of the intro paragraph immediately below the H1. */
+.md-typeset img.tak-app-icon {
+  float: right;
+  width: 64px;
+  height: 64px;
+  margin: 0 0 .5rem 1rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset img.tak-app-icon {
+    width: 48px;
+    height: 48px;
+  }
+}

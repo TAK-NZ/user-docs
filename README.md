@@ -68,4 +68,4 @@ Use the PR template checklist as a guide, and update the `nav` section in `mkdoc
 
 ## License
 
-TAK.NZ is distributed under AGPL-3.0-only. See [LICENSE](LICENSE) for details.
+TAK.NZ is distributed under AGPL-3.0-only. See [LICENSE](LICENSE) for details. Some icon assets are third-party derivatives under a different license — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
