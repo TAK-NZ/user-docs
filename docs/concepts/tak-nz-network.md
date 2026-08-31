@@ -6,19 +6,19 @@ Every organisation on TAK.NZ has a standardised [callsign prefix](callsigns.md) 
 
 ## How the network is structured
 
-TAK.NZ uses a three-layer **channel** structure to balance shared situational awareness with each organisation's need for internal coordination:
+TAK.NZ uses a **channel** structure to balance shared situational awareness with each organisation's need for internal coordination and operational privacy:
 
 ```mermaid
 flowchart TD
-    A["National<br/><small>Regions - All of New Zealand</small>"] --> B["Regional<br/><small>Regions - Canterbury, Regions - Auckland, ...</small>"]
+    A["Response<br/><small>Response - Canterbury, Response - Auckland, ...<br/>Emergency Services only</small>"] --> B["Support<br/><small>Support - Canterbury, Support - All of New Zealand, ...<br/>All agencies</small>"]
     B --> C["Organisation<br/><small>FENZ, NZP-WGN, ...</small>"]
 ```
 
-1. **National** — for events affecting the whole country
-2. **Regional** — one channel per NZ region, and the primary coordination layer for any emergency event
-3. **Organisation** — internal agency coordination that doesn't need to broadcast to every other responder
+1. **Response** — one channel per NZ region, restricted to Emergency Services agencies. The primary coordination layer for typical multi-agency incident response.
+2. **Support** — one channel per NZ region plus a nationwide channel, open to all agencies including lifeline utilities and welfare organisations. Coordination moves here when an incident escalates into a wider, declared disaster.
+3. **Organisation** — internal agency coordination that doesn't need to broadcast to every other responder.
 
-When an emergency happens in a region, every responding agency activates that region's channel and immediately sees everyone else who's active there — no manual configuration required. See [Channel Structure](channels.md) for the complete picture, including overseas deployment channels used when NZ personnel deploy to the Pacific or further afield.
+When an emergency happens in a region, every responding Emergency Services agency activates that region's Response channel and immediately sees everyone else who's active there — no manual configuration required. If the response grows into a broader disaster needing non-Emergency-Services agencies, coordination shifts to the matching Support channel(s). See [Channel Structure](channels.md) for the complete picture, including who counts as Emergency Services and overseas deployment channels used when NZ personnel deploy to the Pacific or further afield.
 
 ## International partnerships
 

@@ -32,7 +32,7 @@ The TAK Server is the central hub that all clients connect to. It's what makes t
 
 ### :material-radio-tower: Channels
 
-Channels work like radio channels: to see other users, you both need to be on the same channel. TAK.NZ uses a three-layer channel structure — national, regional, and organisation — designed specifically around how NZ agencies coordinate. See [Channel Structure](channels.md) for the full breakdown.
+Channels work like radio channels: to see other users, you both need to be on the same channel. TAK.NZ splits regional coordination into **Response** channels (Emergency Services only) and **Support** channels (all agencies), plus **organisation** channels for internal agency use — designed specifically around how NZ agencies coordinate. See [Channel Structure](channels.md) for the full breakdown.
 
 ### :material-devices: Clients
 

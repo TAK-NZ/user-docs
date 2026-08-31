@@ -86,7 +86,7 @@ TAK.NZ is built on TAK (Team Awareness Kit), the same technology used by public 
 
 ## Why TAK.NZ
 
-- **One shared picture, every agency.** Regional channels bring responding agencies onto the same map automatically during an emergency.
+- **One shared picture, every agency.** Response and Support channels bring responding agencies onto the same map automatically during an emergency, from need-to-know Emergency Services coordination through to whole-of-response disaster support.
 - **Works on what you already have.** ATAK on Android, TAK Aware on iPhone, WinTAK on a laptop, or CloudTAK in any browser — no proprietary hardware.
 - **Built for New Zealand.** Callsigns, channels, and colour coding are designed around NZ agencies, regions, and how our emergency response actually works, with LINZ basemaps giving you accurate NZ-specific mapping.
 - **Free and open source.** TAK.NZ is built on free and open source software, with no per-seat licensing costs standing in the way of adoption.
