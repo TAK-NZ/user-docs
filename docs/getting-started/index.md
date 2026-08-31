@@ -36,7 +36,7 @@ Once you're logged in, your Team Manager **Dashboard** is home base. From here y
 | **CloudTAK** | Browser-based TAK interface, no install required | Quick exploration, desktop users, evaluators |
 
 !!! tip "New to TAK? Start here"
-    If you're not sure where to start, use **CloudTAK** first. It requires no app installation and runs directly in your browser, so you can get a feel for channels, the map, and the basics before installing a mobile client.
+    If you're not sure where to start, use **CloudTAK** first. It requires no app installation and runs directly in your browser, so you can get a feel for channels, the map, and the basics before installing a mobile client. Once your account is set up, you can go straight to [https://map.tak.nz/](https://map.tak.nz/) to open it directly, instead of going through Team Manager each time.
 
 ## Next steps
 

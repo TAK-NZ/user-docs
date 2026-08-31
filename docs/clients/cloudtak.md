@@ -8,19 +8,19 @@ CloudTAK is TAK.NZ's browser-based client — the fastest way to get onto the Co
 
 ## Accessing CloudTAK
 
-1. Log in to [Team Manager](../getting-started/index.md) at [https://team.tak.nz/](https://team.tak.nz/).
-2. Select **CloudTAK** from your Dashboard.
-3. CloudTAK opens directly in your browser — no download or install required.
+The quickest way in is to go directly to [https://map.tak.nz/](https://map.tak.nz/) and log in there — no download or install required.
+
+Alternatively, if you're already in [Team Manager](../getting-started/index.md) at [https://team.tak.nz/](https://team.tak.nz/), select **CloudTAK** from your Dashboard to get there the same way.
 
 CloudTAK works in any modern browser on desktop, tablet, or mobile, though a larger screen makes it easier to work with overlays and drawing tools.
 
 ## First login
 
-The first time you log in, you'll be asked to set your **callsign** and device preferences:
+Your **callsign**, **role**, and **marker colour** are all assigned automatically based on your Team Manager profile — you won't be asked to set these yourself:
 
-1. **Callsign** — follow the TAK.NZ [Callsigns](../concepts/callsigns.md) schema (`[ORG]-[REGION]-[SUFFIX]`), for example `FENZ-AUK-JSmith`.
-2. **Marker colour** — this is set automatically based on your organisation. See [Colour Coding](../concepts/colour-coding.md) if you want to understand why your dot is the colour it is.
-3. **Role** — choose your role on the team (Team Member, Team Lead, Medic, etc.). If you're not sure, **Team Member** is the safe default.
+1. **Callsign** — follows the TAK.NZ [Callsigns](../concepts/callsigns.md) schema (`[ORG]-[REGION]-[SUFFIX]`), for example `FENZ-AUK-JSmith`. If it needs correcting, ask your team admin to update it in Team Manager — see [Team Administration](../getting-started/team-administration.md).
+2. **Role** — set from your TAK Profile (Team Member, Team Lead, Medic, etc.). If you're not sure this is right, check with your team admin.
+3. **Marker colour** — set automatically based on your organisation. See [Colour Coding](../concepts/colour-coding.md) if you want to understand why your dot is the colour it is.
 4. When prompted, select **Allow** so CloudTAK can access your location. If your device doesn't have GPS (e.g. a desktop browser), you'll need to set your location manually — click the location button in the bottom-left corner and select your position on the map.
 
 ## Moving around the map
@@ -132,7 +132,7 @@ Files you've imported appear under **Uploaded Files**. Selecting one lets you ad
 
 ### Settings
 
-Open **Settings** to change your callsign, device preferences, and unit type (e.g. metric vs imperial) at any time.
+Open **Settings** to change your device preferences and unit type (e.g. metric vs imperial) at any time. Your callsign, role, and colour are managed centrally in Team Manager, not here — see [First login](#first-login) above.
 
 ## Tips for getting comfortable
 
