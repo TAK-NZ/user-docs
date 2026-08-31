@@ -10,12 +10,16 @@ WinTAK is the TAK client for Windows laptops and desktops. It covers most of ATA
 
 ## Connecting to the TAK.NZ server
 
-Unlike ATAK and TAK Aware, WinTAK doesn't currently support QR code enrolment — you'll connect using server details provided by your administrator.
+Unlike ATAK and TAK Aware, WinTAK doesn't support QR code enrolment — but connecting is still self-service, through [Team Manager](../getting-started/index.md)'s Enrollment page, not something you need to request from an administrator.
 
-1. Log in to the [account portal](../getting-started/index.md) to retrieve your enrolment credentials, or ask your administrator for the WinTAK connection package.
-2. In WinTAK, open **Settings > Network Preferences > TAK Servers** (menu location may vary slightly by version).
-3. Add a new server connection using the hostname/address and credentials or certificate package provided.
-4. Once connected, your position reports to the TAK Server (subject to your active channels) and you'll see other users and map data.
+1. Log in to [Team Manager](../getting-started/index.md) and open the **Enrollment** page (or click **Add Device** from your Dashboard).
+2. Click **Generate Enrollment Data**, then select the **Manual / WinTAK** tab. You'll see your server address, port, username, and a password you can copy to your clipboard.
+3. In WinTAK, open **Settings > Network Preferences > TAK Servers** (menu location may vary slightly by version).
+4. Add a new server connection using the address, port, username, and password from Team Manager.
+5. Once connected, your position reports to the TAK Server (subject to your active channels) and you'll see other users and map data.
+
+!!! note
+    Your enrollment code and password are only valid for 30 minutes, and your device certificate is valid for about a year. If it expires, come back to the Enrollment page to generate a new one.
 
 ## The basics
 

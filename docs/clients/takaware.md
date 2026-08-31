@@ -1,6 +1,9 @@
 # TAK Aware (iPhone/iPad)
 
-TAK Aware is the TAK client for Apple devices used on TAK.NZ. It's a lightweight client built for modern iOS, designed so that anyone already familiar with ATAK can be operational quickly, while covering the core situational awareness and coordination features.
+TAK Aware is the recommended TAK client for Apple devices on TAK.NZ. It's a lightweight client built for modern iOS, designed so that anyone already familiar with ATAK can be operational quickly, while covering the core situational awareness and coordination features.
+
+!!! note "iTAK"
+    **iTAK** is also available as an alternative iOS client, enrolled the same way via its own tab in Team Manager's Enrollment page. This page focuses on TAK Aware, since it's the recommended default, but the same enrolment process applies if you use iTAK instead.
 
 ## Installing TAK Aware
 
@@ -12,15 +15,15 @@ TAK Aware is the TAK client for Apple devices used on TAK.NZ. It's a lightweight
 
 Like ATAK, TAK Aware supports QR code enrolment, which is the fastest way to connect to the TAK.NZ server without manually entering server addresses or credentials.
 
-1. Log in to the [account portal](../getting-started/index.md) and select **TAK Device Enrollment**.
-2. Choose **TAK Aware** as your device type. The portal will generate a QR code (and, if needed, a one-time username and password shown alongside it).
+1. Log in to [Team Manager](../getting-started/index.md) and open the **Enrollment** page (or click **Add Device** from your Dashboard).
+2. Click **Generate Enrollment Data**, then select the **TAK Aware** tab. This creates a one-time enrollment code, valid for 30 minutes, shown as a QR code (and, if needed, a one-time username and password shown alongside it).
 3. In TAK Aware, open the server connection screen and choose the option to scan a QR code.
-4. Scan the code shown in the account portal. TAK Aware will connect and enrol your device automatically.
+4. Scan the code shown in Team Manager. TAK Aware will connect and enrol your device automatically.
 
-Once enrolled, your position reports to the TAK Server (subject to your active channels), and you'll see other users, markers, and overlays on the map.
+Once enrolled, your position reports to the TAK Server (subject to your active channels), and you'll see other users, markers, and overlays on the map. Your device's certificate is valid for about a year — when it's getting close to expiring, return to the Enrollment page and generate a new one.
 
 !!! tip "Enrolling directly from your iPhone or iPad"
-    The account portal and TAK Device Enrollment app also work in Safari on iOS. If you open them directly on the device you're enrolling, you can enrol without scanning a QR code at all — the QR code is only needed when enrolling from a separate device.
+    Team Manager also works in Safari on iOS. If you open the Enrollment page directly on the device you're enrolling, you'll see a direct "Enroll this device now" link instead of a QR code — you can skip scanning entirely. The QR code is only needed when enrolling from a separate device (you can't scan your own screen).
 
 ## The basics
 

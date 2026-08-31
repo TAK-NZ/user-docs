@@ -8,8 +8,8 @@ CloudTAK is TAK.NZ's browser-based client — the fastest way to get onto the Co
 
 ## Accessing CloudTAK
 
-1. Log in to the [account portal](../getting-started/index.md) at your organisation's TAK.NZ URL.
-2. Select **CloudTAK** from your account dashboard.
+1. Log in to [Team Manager](../getting-started/index.md) at [https://team.tak.nz/](https://team.tak.nz/).
+2. Select **CloudTAK** from your Dashboard.
 3. CloudTAK opens directly in your browser — no download or install required.
 
 CloudTAK works in any modern browser on desktop, tablet, or mobile, though a larger screen makes it easier to work with overlays and drawing tools.
