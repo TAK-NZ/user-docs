@@ -1,5 +1,7 @@
 # Channel Structure
 
+![Channels icon](../assets/images/app-icons/channels.png){: .tak-app-icon }
+
 TAK.NZ uses a structured channel hierarchy to balance shared situational awareness across agencies with the operational privacy each organisation needs for internal coordination.
 
 !!! note "All channels are active by default"

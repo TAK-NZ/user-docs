@@ -1,5 +1,7 @@
 # Data Sync & Missions
 
+![Data Sync icon](../assets/images/app-icons/data-sync.png){: .tak-app-icon }
+
 **Data Sync** (also called **Missions**) is how you share map items, files, photos, and updates with your team in real time — across any TAK.NZ client. It's the feature that turns individual situational awareness into genuine team coordination.
 
 ## What a Mission is

@@ -1,5 +1,7 @@
 # Data Packages
 
+![Data Packages icon](../assets/images/app-icons/data-packages.png){: .tak-app-icon }
+
 A **Data Package** is a portable bundle of content — map markers, overlays, routes, imagery, or configuration — packaged into a single file that can be shared, downloaded, and imported into a TAK client. Where [Missions](../data-sync/index.md) keep content live and synced over the network, Data Packages are a way to move a fixed snapshot of content between devices, including onto devices that are offline.
 
 ## What can be in a Data Package

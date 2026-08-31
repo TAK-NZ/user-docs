@@ -1,5 +1,7 @@
 # Maps
 
+![Maps icon](../assets/images/app-icons/maps.png){: .tak-app-icon }
+
 The map is the core of the Common Operating Picture (COP) — everything else in TAK.NZ (positions, channels, Missions, feeds) is displayed on top of it. TAK.NZ clients let you choose what the map itself looks like and what reference data it shows underneath your team's positions and markers.
 
 ## Basemaps and imagery
