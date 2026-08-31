@@ -4,7 +4,7 @@ ATAK (Android Team Awareness Kit) is the most feature-complete TAK client, and t
 
 ## Installing ATAK
 
-1. Install ATAK from the Google Play Store, or from an APK provided by your agency if you're on a managed device.
+1. Install ATAK via [TAK.gov](https://tak.gov/) (recommended — the official distribution channel) or the Google Play Store, or from an APK provided by your agency if you're on a managed device. Team Manager's Downloads page links directly to whichever source is recommended for your deployment.
 2. Open the app. The first time it runs, ATAK will:
     - Generate an encryption passphrase automatically (you can change this later under **Settings > Callsign and Device Preferences > Encryption Password**)
     - Ask you to accept the End User License Agreement (EULA)
@@ -15,16 +15,16 @@ ATAK (Android Team Awareness Kit) is the most feature-complete TAK client, and t
 
 The fastest way to connect ATAK to the TAK.NZ server is by scanning a QR code, rather than manually typing in server addresses and credentials.
 
-1. Log in to the [account portal](../getting-started/index.md) and select **TAK Device Enrollment**.
-2. Choose **ATAK** as your device type. The portal will generate a QR code (and, if needed, a one-time username and password shown alongside it).
+1. Log in to [Team Manager](../getting-started/index.md) and open the **Enrollment** page (or click **Add Device** from your Dashboard).
+2. Click **Generate Enrollment Data**, then select the **ATAK** tab. This creates a one-time enrollment code, valid for 30 minutes, shown as a QR code (and, if needed, a one-time username and password shown alongside it).
 3. On your Android device, open ATAK and go to the server connection screen (usually presented automatically on first launch, or under **Settings > Network Preferences > TAK Servers**).
-4. Select the option to scan a QR code, then scan the code shown in the account portal.
+4. Select the option to scan a QR code, then scan the code shown in Team Manager.
 5. ATAK will connect to the TAK.NZ server and enrol your device automatically.
 
-Once enrolled, your position will start reporting to the TAK Server (subject to your active channels) and you'll be able to see other users, markers, and overlays on the map.
+Once enrolled, your position will start reporting to the TAK Server (subject to your active channels) and you'll be able to see other users, markers, and overlays on the map. Your device's certificate is valid for about a year — when it's getting close to expiring, return to the Enrollment page and generate a new one.
 
 !!! tip "Enrolling directly from your Android device"
-    The account portal and TAK Device Enrollment app work fine in a mobile browser too. If you open them directly on the Android phone or tablet you're enrolling, you can enrol that device without scanning a QR code at all — the QR code is only needed when enrolling from a separate device.
+    Team Manager works fine in a mobile browser too. If you open the Enrollment page directly on the Android phone or tablet you're enrolling, you'll see a direct "Enroll this device now" link instead of a QR code — you can skip scanning entirely. The QR code is only needed when enrolling from a separate device (you can't scan your own screen).
 
 ## The basics
 

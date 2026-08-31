@@ -93,6 +93,7 @@ nav:
   - Getting Started:
       - Create Your Account: getting-started/index.md
       - Account Management: getting-started/account-management.md
+      - Team Administration: getting-started/team-administration.md
       - Choosing a Client: getting-started/choosing-a-client.md
   - Clients:
       - Overview: clients/index.md
