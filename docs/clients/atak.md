@@ -53,7 +53,7 @@ Tapping any marker or your own Self-Marker brings up a **radial menu** with quic
 
 ### Channels
 
-Manage which channels you're subscribed to under **Settings** or via the channel/groups selector, depending on your ATAK version. See [Channel Structure](../concepts/channels.md) for how TAK.NZ's national, regional, and organisation channels work.
+Manage which channels you're subscribed to under **Settings** or via the channel/groups selector, depending on your ATAK version. See [Channel Structure](../concepts/channels.md) for how TAK.NZ's Response, Support, and organisation channels work.
 
 ### GeoChat
 

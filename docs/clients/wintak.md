@@ -33,7 +33,7 @@ Use WinTAK's marker tools to drop standard map markers, similar to ATAK's Point 
 
 ### Channels
 
-Manage your active channels from WinTAK's settings. See [Channel Structure](../concepts/channels.md) — the same national/regional/organisation hierarchy applies across every client.
+Manage your active channels from WinTAK's settings. See [Channel Structure](../concepts/channels.md) — the same Response/Support/organisation hierarchy applies across every client.
 
 ### GeoChat
 

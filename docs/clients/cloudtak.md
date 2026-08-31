@@ -39,16 +39,18 @@ The first time you log in, you'll be asked to set your **callsign** and device p
 Click **Channels** to see what's available to your account. Some channels are already enabled for you by default.
 
 - Channels work like radio channels — to see other users, you both need to be on the same channel.
-- **Regional channels** (e.g. `Regions - Canterbury`) are the primary coordination layer. When an emergency happens, all responding agencies activate that region's channel.
+- **Response channels** (e.g. `Response - Canterbury`) are the primary coordination layer for typical multi-agency incident response, restricted to Emergency Services agencies.
+- **Support channels** (e.g. `Support - Canterbury`, or nationwide `Support - All of New Zealand`) are open to all agencies, including lifeline utilities and welfare organisations. Coordination moves here when an incident escalates into a wider, declared disaster.
 - **Organisation channels** (e.g. `FENZ`, `NZP-WGN`) are for internal agency coordination without broadcasting to everyone else.
-- **National channels** (e.g. `Regions - All of New Zealand`) broadcast to all users nationwide, used for major events affecting the whole country.
+
+See [Channel Structure](../concepts/channels.md) for the full breakdown of who has access to Response versus Support channels.
 
 Each channel shows two icons:
 
 - An **eye** icon — open means the channel is on and sharing your location with everyone else on it; a slash through it means your presence is hidden from that channel.
 - An **arrow** icon — a plain arrow means users on that channel can see each other; an arrow with a slash means the channel only supplies data (e.g. aircraft or hazard feeds) without mutual user visibility.
 
-Your list of channels is unique to your account — some are created by your agency administrator and limited to your organisation, while others are shared across agencies for mutual aid. Only turn on mutual aid channels when you actually need them, and follow your agency's own policy on this. See [Channel Structure](../concepts/channels.md) for the full national/regional/organisation breakdown.
+Your list of channels is unique to your account — some are created by your agency administrator and limited to your organisation, while others are shared across agencies for mutual aid. Only turn on mutual aid channels when you actually need them, and follow your agency's own policy on this.
 
 !!! tip
     When you enable a new channel, wait 20–30 seconds for the map to populate with its icons and shapes.

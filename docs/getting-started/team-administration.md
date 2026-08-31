@@ -39,7 +39,7 @@ The **Team Devices** tab is for devices that belong to the team itself rather th
 
 ## Managing channels
 
-The **Channels** tab shows your team's TAK channels — its primary channel plus any custom ones — along with each channel's sync status and member count. You can create a new channel from your team's menu, up to 3 per team. See [Channel Structure](../concepts/channels.md) for how TAK.NZ's national, regional, and organisation channels fit together.
+The **Channels** tab shows your team's TAK channels — its primary channel plus any custom ones — along with each channel's sync status and member count. You can create a new channel from your team's menu, up to 3 per team. See [Channel Structure](../concepts/channels.md) for how TAK.NZ's Response, Support, and organisation channels fit together.
 
 ## Managing sub-teams
 
